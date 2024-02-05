@@ -1,19 +1,20 @@
-# Vehicle-Data-Set-Excel
+# Vehicle Data Analysis
 
 This is a dataset from a company who deals in selling of second-hand cars. Features in this data set are - Car_Name, Year, Selling_Price,	Present_Price, Kms_Driven, Fuel_Type, Seller_Type, Transmission, Owner.
 
 I haved Microsoft Excel to clean, visualize and analyze the data.
 
-View of the Excel dashboard:
+## View of the Excel dashboard:
+
 ![Screenshot 2024-02-05 143546](https://github.com/kanishkagargg/Vehicle-Data-Set-Excel/assets/140965958/45b83732-1782-4a20-9c7e-482911239454)
 
-Cleaning involved: 
+## Cleaning involved: 
   1.	Name of the cars should start with capital letters. Hence made a new column for it.
   2.	Outlier - There is one scooty called Activa 3g which covered 5L kms , runs on petrol, is automatic and was from 2008. This is not possible for a scooty to cover this much of distance. I moved it to the end    of the row so that I could avoid it in calculations and not removing that entry at all.
   3.	There is a name of a car called 800 and from 2003. This could be Alto 800.
   4. Added two columns called kms bins (to convert categorical from continuous) and pp-sp which is present price - selling price.
 
-Key Findings:
+## Key Findings:
   1.	This data could be of a business who deals in selling second-hand cars.
   2.	Total 301 cars are listed out of which only 98 are of unique brand.
   3.	There are more manual cars than automatic cars. Manual cars comprises of 87% of the total cars listed.
