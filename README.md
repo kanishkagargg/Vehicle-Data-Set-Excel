@@ -4,6 +4,9 @@ This is a dataset from a company who deals in selling of second-hand cars. Featu
 
 I haved Microsoft Excel to clean, visualize and analyze the data.
 
+View of the Excel dashboard:
+![Screenshot 2024-02-05 143546](https://github.com/kanishkagargg/Vehicle-Data-Set-Excel/assets/140965958/45b83732-1782-4a20-9c7e-482911239454)
+
 Cleaning involved: 
   1.	Name of the cars should start with capital letters. Hence made a new column for it.
   2.	Outlier - There is one scooty called Activa 3g which covered 5L kms , runs on petrol, is automatic and was from 2008. This is not possible for a scooty to cover this much of distance. I moved it to the end    of the row so that I could avoid it in calculations and not removing that entry at all.
@@ -24,7 +27,3 @@ Key Findings:
   11.	Maximum change in prices happens to those cars who are from 2010 and 2015.
   12.	Average present prices of all the cars driven between 70-80k is the highest. But the sum of present prices is highest for those cars who ran between 40-50k. This is because there are 11 cars under 70-80k      slab and 47 vehicles in 40-50k slab. Hence, average goes down in 40-50k slab.
 
-
-
-View of the Excel dashboard:
-![Screenshot 2024-02-05 143546](https://github.com/kanishkagargg/Vehicle-Data-Set-Excel/assets/140965958/45b83732-1782-4a20-9c7e-482911239454)
